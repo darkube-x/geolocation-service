@@ -1,4 +1,4 @@
-import * as Geolocation from 'geolocation-service';
+import Geolocation from 'geolocation-service';
 import { useEffect } from 'react';
 import { Button, View } from 'react-native';
 

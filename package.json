@@ -1,6 +1,6 @@
 {
   "name": "@darkube/geolocation-service",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Native location service for react-native",
   "main": "build/index.js",
   "types": "build/index.d.ts",
