@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="Tracking Location"
-        android:textColor="@android:color/white"
+        android:textColor="@color/title_text_color"
         android:textSize="14sp"
         android:textStyle="bold" />
 
@@ -39,6 +39,7 @@
                 android:layout_height="16dp"
                 android:layout_gravity="start"
                 android:layout_marginEnd="4dp"
+                android:tint="@color/notification_text_color"
                 android:src="@drawable/icon_devices" />
         </LinearLayout>
 
@@ -47,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Latitude\nLongitude"
-            android:textColor="#AAFFFFFF"
+            android:textColor="@color/notification_text_color"
             android:textSize="10sp"
             android:textStyle="normal"
             android:typeface="sans" />
@@ -57,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" : \n : "
-            android:textColor="#AAFFFFFF"
+            android:textColor="@color/notification_text_color"
             android:textSize="10sp"
             android:textStyle="normal"
             android:typeface="sans" />
@@ -66,7 +67,7 @@
             android:id="@+id/locationText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#AAFFFFFF"
+            android:textColor="@color/notification_text_color"
             android:textSize="10sp"
             android:textStyle="normal"
             android:typeface="sans" />
